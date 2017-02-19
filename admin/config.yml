@@ -1,5 +1,5 @@
 backend:
-  name: talking-with-netlify
+  name: github
   repo: "https://github.com/Jayzz55/talking-with-netlify" # replace by your repo
   branch: master # replace if you want netlify-cms publish on a different branch
 
@@ -9,7 +9,7 @@ media_folder: "assets" # the same as your phenomic.assets in your package.json
 collections:
   - name: "post"
     label: "Post"
-    folder: "content/posts" # a subfolder of your public_folder
+    folder: "_content/posts" # a subfolder of your public_folder
     create: true
     card: {type: "alltype", text: "title"}
     fields:
