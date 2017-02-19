@@ -5,6 +5,7 @@ backend:
 
 public_folder: "content" # the same as your phenomic.source in your package.json
 media_folder: "assets" # the same as your phenomic.assets in your package.json
+publish_mode: editorial_workflow
 
 collections:
   - name: "post"
