@@ -14,7 +14,7 @@
     "test": "npm run build"
   },
   "phenomic": {
-    "source": "contents",
+    "source": "content",
     "assets": "assets",
     "CNAME": false
   },
