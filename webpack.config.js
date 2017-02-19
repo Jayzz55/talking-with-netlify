@@ -9,6 +9,7 @@ import PhenomicLoaderSitemapWebpackPlugin
   from "phenomic/lib/loader-sitemap-webpack-plugin"
 
 import pkg from "./package.json"
+import CopyWebpackPlugin from "copy-webpack-plugin"
 
 export default (config = {}) => {
 
@@ -255,6 +256,10 @@ export default (config = {}) => {
           },
         },
       }),
+
+      new CopyWebpackPlugin([
+        {from: 'admin', to: 'admin'},
+      ]),
 
       new PhenomicLoaderSitemapWebpackPlugin({
         site_url: pkg.homepage,
