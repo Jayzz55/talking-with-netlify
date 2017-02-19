@@ -13,6 +13,7 @@ collections:
     create: true
     card: {type: "alltype", text: "title"}
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
