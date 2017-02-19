@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: "https://github.com/Jayzz55/talking-with-netlify" # replace by your repo
+  repo: "Jayzz55/talking-with-netlify" # replace by your repo
   branch: master # replace if you want netlify-cms publish on a different branch
 
 public_folder: "contents" # the same as your phenomic.source in your package.json
